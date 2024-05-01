@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('/images/Forum BG.png');
+  background-color: #020617;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -123,6 +124,8 @@ h2 {
 
 .card {
   background-image: url('/images/Post BG.png'); 
+  background-color: #020617;
+  border: 2px solid #8b97c7;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
