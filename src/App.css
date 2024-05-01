@@ -1,0 +1,149 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('src/images/Forum BG.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: white;
+}
+
+.title {
+  color: #4e6ed1;
+  text-align: left;
+}
+
+.createButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  background-color: #1e2c58;
+  border-radius: 8px;
+}
+
+.createButton :hover {
+  background-color: #4e6ed1; 
+}
+
+.navbar {
+  position: fixed;
+  background-color: #2f364b;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-middle {
+  flex-grow: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar img {
+  width: 80px; 
+  height: auto;
+  margin-top: -20px;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.Card {
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.PostLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Post {
+  margin-bottom: 10px;
+}
+
+.PostImg {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#title,
+#content,
+#image {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-image: url('src/images/Post BG.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 350px; 
+  color: #fff; 
+}
+
+.cardView {
+  background-image: url('src/images/Post BG.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px; 
+  color: #fff; 
+}
+
+.card form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card h2 {
+  text-align: center;
+}
