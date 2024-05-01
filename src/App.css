@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('src/images/Forum BG.png');
+  background-image: url('/images/Forum BG.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -122,7 +122,7 @@ h2 {
 }
 
 .card {
-  background-image: url('src/images/Post BG.png'); 
+  background-image: url('/images/Post BG.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,7 +131,7 @@ h2 {
 }
 
 .cardView {
-  background-image: url('src/images/Post BG.png'); 
+  background-image: url('/images/Post BG.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
